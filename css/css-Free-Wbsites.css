@@ -104,6 +104,11 @@ a {
 header .bar i {
     cursor: pointer;
 }
+@media (max-width:375px) {
+    header .btn-nav {
+        transform: none !important;
+    }
+}
 /* End Header */
 /* Start Aside */
 .content {

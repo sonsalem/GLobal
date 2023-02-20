@@ -96,6 +96,26 @@ $('.link5').click(function(){
     //body
     $(".body").removeClass("active")
 });
+$('.button').click(function(){
+    // Links
+    $(".link5").addClass('active')
+    $(".link1").removeClass('active')
+    $(".link2").removeClass('active')
+    $(".link3").removeClass('active')
+    $(".link4").removeClass('active')
+    $(".button.btn-nav").removeClass('active')
+
+
+    //Pages
+    $(".work.section").removeClass('active')
+    $(".home.section").removeClass('active')
+    $(".about.section").removeClass('active')
+    $(".contact.section").removeClass('active')
+    $(".hire.section").addClass('active')
+
+    //body
+    $(".body").removeClass("active")
+});
 
 $(document).ready(function(){
     $(".owl-work").owlCarousel({

@@ -301,10 +301,10 @@ header .bar i {
 }
 @media (max-width:1100px) {
     .content .work .owl-next span {
-        right: 25px;
+        right: 0px;
     }
     .content .work .owl-prev span {
-        left: 25px;
+        left: 0px;
     }
 }
 .about h1 {
